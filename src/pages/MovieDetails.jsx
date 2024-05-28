@@ -22,10 +22,10 @@ export default function MovieDetails() {
                 :
                     <div className='w-full p-10 pt-20 flex z-10 text-slate-200 h-full top-0 right-0 absolute bg-gradient-to-r from-zinc-950 to-transparent'>
                         <div className='z-40 flex justify-between flex-col gap-9 p-9'>
-                            <h1 className='font-bold text-7xl'>
+                            <h1 className='font-bold lg:text-7xl md:text-3xl text-2xl '>
                                 {item.title}
                             </h1>
-                            <p className='sfont-medium text-2xl'>
+                            <p className='sfont-medium text-lg md:text-3xl lg:text-2xl'>
                                 {item.overview}
                             </p>
                             <section className='text-xl'>
@@ -40,7 +40,7 @@ export default function MovieDetails() {
                             </section>
                             {/* <p>{item.status}</p> */}
                         </div>
-                        <div className='flex justify-center items-center w-full h-full'>
+                        <div className='hidden lg:flex md:flex justify-center items-center w-full h-full'>
                             <img className=' w-1/2 rounded-xl shadow-2xl' src={'https://image.tmdb.org/t/p/w400'+item.poster_path} alt="" />
                         </div>
                     </div>

@@ -7,6 +7,7 @@ import About from './pages/About'
 import Header from './components/Header'
 import Search from './components/Search'
 import MovieDetails from './pages/MovieDetails'
+import MoviePage from './pages/MoviePage'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/movie' element={<Movies />} />
         <Route path='/tvshow' element={<TVShows/>} />
         <Route path='/about' element={<About />} />
+        <Route path='/moviepage/:country/:language' element={<MoviePage />} />
         <Route path='/search/:searchTerm' element={<Search />} />
         <Route path='/movieinfo/:movieId' element={<MovieDetails />} />
       </Routes>

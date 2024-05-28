@@ -13,7 +13,11 @@ export default function Home() {
     <div>
       <div className='page-bg h-full'>
         <MovieSlider media={'trending/all/week'} country={'US'} language={'en'} listTitle={'Trending Shows'} />
+        <MovieSlider media={'discover/movie'} country={'IN'} language={'hi'} listTitle={'Bollywood Movies'} />
         <MovieSlider media={'movie/popular'} country={'IN'} language={'hi'} listTitle={'Popular Movies'} />
+        <MovieSlider media={'discover/movie'} country={'IN'} language={'ml'} listTitle={'Mollywood Movies'} />
+        <MovieSlider media={'discover/movie'} country={'IN'} language={'ta'} listTitle={'Tollywood Movies'} />
+        <MovieSlider media={'discover/movie'} country={'IN'} language={'te'} listTitle={'Kollywood Movies'} />
         <MovieSlider media={'tv/popular'} country={'IN'} language={'ml'} listTitle={'Popular TV Shows'} />
         <MovieSlider media={'movie/now_playing'} country={'IN'} language={'ta'} listTitle={'Movies Now Playing'} />
         <MovieSlider media={'tv/on_the_air'} country={'IN'} language={'te'} listTitle={'TV shows Airing Now45'} />
