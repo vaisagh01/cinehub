@@ -14,8 +14,7 @@
   scrollbar-width: none;
   overflow-y: scroll;
 }
+
 .show{
-  opacity: 0;
-  transform: translateY(-5px);
-  transition: 0.3s ease-in-out;
+  visibility: hidden;
 }

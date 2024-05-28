@@ -10,7 +10,7 @@ export default function MovieCard({item}) {
 
   return (
     <motion.div onClick={()=>{navigate(`/movieinfo/${item.id}`)}} whileHover={{scale:1.04}}  onHoverStart={()=>{setHover(true)}} onHoverEnd={()=>setHover(false)}  className='relative cursor-pointer'>
-      <div className='flex flex-col justify-between px-3 py-5 min-w-48 '>
+      <div className='flex flex-col justify-between px-3 py-5 min-w-48 max-w-48 '>
         <img className='w-48 h-64 object-cover rounded-lg' src={'https://image.tmdb.org/t/p/w400'+item.poster_path} alt="" />
         <div className='text-slate-400 flex justify-between'>
           {

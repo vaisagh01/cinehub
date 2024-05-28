@@ -28,7 +28,7 @@ export default function Search() {
            <div>
             {
                 list.length === 0 ? "Type something to search":
-                <div  className='grid grid-cols-4'>
+                <div  className='grid mt-9 grid-cols-2 overflow-hidden lg:grid-cols-6 md:grid-cols-3'>
                     {
                         list.map((item,index) => {
                             return <SearchCard item={item} />
