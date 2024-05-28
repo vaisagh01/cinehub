@@ -1,0 +1,21 @@
+.page-bg{
+  background: rgba(9,9,11,0.97);
+  /* padding-top: 0px; */
+  padding: 60px 0px 0px 0px;
+}
+
+.hide-scroll::-webkit-scrollbar{
+  display: none;
+}
+.hide-scroll::-webkit-scrollbar-track{
+  background: red;
+}
+.hide-scroll {
+  scrollbar-width: none;
+  overflow-y: scroll;
+}
+.show{
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
